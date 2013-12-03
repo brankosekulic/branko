@@ -1,7 +1,7 @@
 {
   "name": "in1-test",
   "version": "0.0.1",
-  "author": "Iatek",
+  "author": "Branko Sekulic",
   "scripts": {
   	"preinstall": "npm install -g grunt"
   },
