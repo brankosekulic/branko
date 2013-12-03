@@ -1,4 +1,4 @@
-var PORT = 9000,
+var PORT = process.env.PORT || 5000,
 	express = require("express"),
 	app = express.createServer(),
 	Router = require("./lib/Router.js");
