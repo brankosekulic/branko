@@ -2,5 +2,7 @@
         "localhost:5000": "branko",
         "www.brankosekulic.com:5000": "branko",
         "www.brankosekulic.com": "branko",
+        "brankosekulic.com:5000": "branko",
+        "brankosekulic.com": "branko",
         "127.0.0.1:5000": "branko"
 }
