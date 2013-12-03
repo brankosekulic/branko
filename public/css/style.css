@@ -1,0 +1,27 @@
+.content{
+	padding-top: 50px;
+}
+
+.gallery ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+.gallery li{
+	float:left;
+	border-left: 2px solid white;
+}
+
+.gallery img{
+	width: 100px;
+	cursor: pointer;
+}
+
+#galleryModal img{
+	cursor: pointer;
+}
+
+.social-links li a {
+    padding-left: 0px;
+    padding-right: 0px;
+}

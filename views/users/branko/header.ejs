@@ -1,0 +1,36 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+    	<div class="container">
+          	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            </a>
+          	<a class="brand instant" href="/">Branko Sekulic</a>
+          	<div class="nav-collapse collapse">
+           		<ul class="nav">
+         			<li<% if(page == 'index'){ %> class="active"<% } %>><a href="/" class="instant">Home</a></li>
+        			<li<% if(page == 'gallery'){ %> class="active"<% } %>><a href="/gallery" class="instant">Gallery</a></li>
+        			<li<% if(page == 'contact'){ %> class="active"<% } %>><a href="/contact" class="instant">Contact</a></li>
+		  		</ul>
+                <ul class="nav pull-right social-links">
+                    <li><a href="http://rs.linkedin.com/pub/branko-sekulic/a/147/790"><img width="20" src="/public/images/linkedin-icon-sm.png"/></a></li>
+                    <li><a href="https://github.com/brankosekulic"><img width="20" src="/public/images/github.png"/></a></li>
+                </ul>
+		  		<ul class="nav pull-right">
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Resources <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a target="_blank" href="http://documentcloud.github.com/backbone/">Backbone.js</a></li>
+                            <li><a target="_blank" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a></li>
+                            <li><a target="_blank" href="http://nodejs.org/">Node.js</a>
+                            </li><li><a target="_blank" href="http://expressjs.com/">Express</a>
+                            </li><li><a target="_blank" href="http://www.mongodb.org/">MongoDB</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+        	</div><!--/.nav-collapse -->
+        </div>
+	</div>
+</div>

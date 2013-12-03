@@ -1,0 +1,17 @@
+{
+  "name": "in1-test",
+  "version": "0.0.1",
+  "author": "Iatek",
+  "scripts": {
+  	"preinstall": "npm install -g grunt"
+  },
+  "dependencies": {
+    "express": "2.5.x",
+    "ejs": ">=0.7.x",
+    "mongodb": "*",
+    "grunt-css":   ">0.0.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

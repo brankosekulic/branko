@@ -1,0 +1,8 @@
+<% if (names.length) { %>
+	<p>Names:</p>
+	<ul>
+		<% names.forEach(function(name){ %>
+			<li><%= name %></li>
+		<% }) %>
+	</ul>
+<% } %>

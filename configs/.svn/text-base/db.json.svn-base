@@ -1,0 +1,7 @@
+{
+	"mongo": {
+		"host": "find.in.rs",
+		"port": 27017,
+		"db": "mydb"
+	}
+}

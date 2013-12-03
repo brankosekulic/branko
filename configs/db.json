@@ -1,0 +1,7 @@
+{
+	"mongo": {
+		"host": "www.brankosekulic.com",
+		"port": 27017,
+		"db": "test"
+	}
+}
