@@ -1,5 +1,0 @@
-<% layout('layouts/layout') -%>
-<% things.forEach(function(user){ %>
-    <%=: user['_id'] %>
-    <br/>
-<% }) %>

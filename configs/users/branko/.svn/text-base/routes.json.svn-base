@@ -1,8 +1,0 @@
-{
-	"routes": [
-		"/            index   index       get,post",
-		"/gallery     index   gallery     get,post",
-		"/contact     index   contact     get,post",
-		"/templates   index   templates   get,post"
-	]
-}
